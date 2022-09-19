@@ -18,14 +18,14 @@ Este conjunto de dados contém detalhes de 1000 clientes, indicando se um client
     5. AnnualSalary(Salário anual) - Numérico.
 - **Linhas:** 1003.
     
-    ![DataTable.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/DataTable.png)
+    ![DataTable.png](Imagens\1_Entendimento_dos_dados\1_DataTable.png)
     
 
  
 
 ### Dados estatísticos
 
-![FeatureStatistics.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/FeatureStatistics.png)
+![FeatureStatistics.png](Imagens\1_Entendimento_dos_dados\3_FeatureStatistics.png)
 
 - **Idade**
     
@@ -36,7 +36,7 @@ Este conjunto de dados contém detalhes de 1000 clientes, indicando se um client
     Máxima: 110 Anos.
     
 
-![DistributionsAge.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/DistributionsAge.png)
+![DistributionsAge.png](Imagens\1_Entendimento_dos_dados\5_DistributionsAge.png)
 
 - **Salário anual**
     
@@ -49,7 +49,7 @@ Este conjunto de dados contém detalhes de 1000 clientes, indicando se um client
     Máxima: 152 500.
     
 
-![DistributionsSalary.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/DistributionsSalary.png)
+![DistributionsSalary.png](Imagens\1_Entendimento_dos_dados\6_DistributionsSalary.png)
 
 - **Gênero**
     
@@ -62,34 +62,34 @@ Este conjunto de dados contém detalhes de 1000 clientes, indicando se um client
     Não compra masculino: 302.
     
 
-![MosaicDisplay.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/MosaicDisplay.png)
+![MosaicDisplay.png](Imagens\1_Entendimento_dos_dados\4_MosaicDisplay.png)
 
 ## 3. **Preparação dos dados**
 
 1. Excluindo coluna User ID:
     
-    ![ExcluindoColuna.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/ExcluindoColuna.png)
+    ![ExcluindoColuna.png](Imagens\2_Preparação_dos_dados\1_ExcluindoColuna.png)
     
 2. Substituindo feminino por 0 e masculino por 1:
     
-    ![SubstituindoFemale.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/SubstituindoFemale.png)
+    ![SubstituindoFemale.png](Imagens\2_Preparação_dos_dados\2_SubstituindoFemale.png)
     
-    ![SubstituindoMale.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/SubstituindoMale.png)
+    ![SubstituindoMale.png](Imagens\2_Preparação_dos_dados\3_SubstituindoMale.png)
     
 3. Detectando e deletando dados enviesados:
     
-    ![LocalizandoDadosDefeitos.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/LocalizandoDadosDefeitos.png)
+    ![LocalizandoDadosDefeitos.png](Imagens\2_Preparação_dos_dados\4_LocalizandoDadosDefeitos.png)
     
-    ![ExcluindoDadosDefeitos.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/ExcluindoDadosDefeitos.png)
+    ![ExcluindoDadosDefeitos.png](Imagens\2_Preparação_dos_dados\5_ExcluindoDadosDefeitos.png)
     
 
 ## 2.1 **Entendimento dos dados**
 
-![DataTableLimpo.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/DataTableLimpo.png)
+![DataTableLimpo.png](Imagens\3_Modelagem\1_DataTableLimpo.png)
 
 ## 4. **Modelagem**
 
-![Modelagem.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/Modelagem.png)
+![Modelagem.png](Imagens\3_Modelagem\2_Modelagem.png)
 
 Métodos selecionados:
 
@@ -100,22 +100,22 @@ Métodos selecionados:
 
 Gerando dados para treino dos modelos:
 
-![DataSampleTeste.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/DataSampleTeste.png)
+![DataSampleTeste.png](Imagens\4_Avaliação do modelo\1_DataSampleTeste.png)
 
 Removida coluna purchased dos dados de teste:
 
-![SelectColumnsTest.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/SelectColumnsTest.png)
+![SelectColumnsTest.png](Imagens\4_Avaliação do modelo\2_SelectColumnsTest.png)
 
 Tabela com os dados para treino:
 
-![DataTableTest.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/DataTableTest.png)
+![DataTableTest.png](Imagens\4_Avaliação do modelo\3_DataTableTest.png)
 
 Resultado final do teste dos modelos, temos:
 
-![PredictionsTest.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/PredictionsTest.png)
+![PredictionsTest.png](Imagens\4_Avaliação do modelo\4_PredictionsTest.png)
 
 ## 6. **Publicação**
 
-![qrcode_github.com.png](Data%20Mining%20com%20CRISP-DM%202a67c23706994f95aab7c574baed6990/qrcode_github.com.png)
+![qrcode_github.com.png](Imagens\qrcode_github.com.png)
 
 ***Link***: [***thiagopereiramagalhaes/Data-Mining-com-CRISP-DM (github.com)***](https://github.com/thiagopereiramagalhaes/Data-Mining-com-CRISP-DM)
