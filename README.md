@@ -89,12 +89,14 @@ Este conjunto de dados contém detalhes de 1000 clientes, indicando se um client
 
 ## 4. **Modelagem**
 
-![Modelagem.png](Imagens/3_Modelagem/2_Modelagem.png)
+Utilizar modelos para predizer a possível venda de um carro.
 
 Métodos selecionados:
 
 - Árvore;
 - Rede neural.
+
+![Modelagem.png](Imagens/3_Modelagem/2_Modelagem.png)
 
 ## 5. **Avaliação do modelo**
 
