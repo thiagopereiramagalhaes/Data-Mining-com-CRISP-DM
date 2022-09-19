@@ -100,19 +100,19 @@ Métodos selecionados:
 
 Gerando dados para treino dos modelos:
 
-![DataSampleTeste.png](Imagens/4_Avaliação do modelo/1_DataSampleTeste.png)
+![DataSampleTeste.png](Imagens/4_Avaliação_do_modelo/1_DataSampleTeste.png)
 
 Removida coluna purchased dos dados de teste:
 
-![SelectColumnsTest.png](Imagens/4_Avaliação do modelo/2_SelectColumnsTest.png)
+![SelectColumnsTest.png](Imagens/4_Avaliação_do_modelo/2_SelectColumnsTest.png)
 
 Tabela com os dados para treino:
 
-![DataTableTest.png](Imagens/4_Avaliação do modelo/3_DataTableTest.png)
+![DataTableTest.png](Imagens/4_Avaliação_do_modelo/3_DataTableTest.png)
 
 Resultado final do teste dos modelos, temos:
 
-![PredictionsTest.png](Imagens/4_Avaliação do modelo/4_PredictionsTest.png)
+![PredictionsTest.png](Imagens/4_Avaliação_do_modelo/4_PredictionsTest.png)
 
 ## 6. **Publicação**
 
